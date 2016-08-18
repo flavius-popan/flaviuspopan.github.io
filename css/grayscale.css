@@ -39,7 +39,7 @@ p {
 }
 
 a {
-    color: #4d88ff;
+    color: #FF3500;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -253,7 +253,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .contact-section {
@@ -269,7 +269,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
     .contact-section {
@@ -288,17 +288,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #4d88ff;
-    color: #4d88ff;
+    border: 1px solid #FF3500;
+    color: #FF3500;
     background-color: black;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #4d88ff;
+    border: 1px solid #FF3500;
     outline: 0;
     color: #000;
-    background-color: #4d88ff;
+    background-color: #FF3500;
 }
 
 ul.banner-social-buttons {
@@ -362,13 +362,6 @@ body {
     width: 200px;
 }
 
-.gradient {
-  background-image: -webkit-gradient(
-  linear, left top, left bottom, from(rgba(0,0,0,0.3)),
-  to(rgba(0,0,0,0)), color-stop(1,black));
-}
-
-
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -399,11 +392,11 @@ body {
   font-size: 20px;
   text-align: center;
   top: 50%;
-  margin-top: -12px;
+  margin-top: -8px;
   color: white;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-  margin-top: -12px;
+  margin-top: -8px;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
@@ -472,4 +465,17 @@ body {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+.project-desc {
+    color: white;
+    font-size: 1.2em;
+}
+
+.project-title {
+    color: #FF3500;
+}
+
+.btn-contact {
+    width: 150px !important;
 }
