@@ -107,11 +107,11 @@
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="container content-section text-center">
-            <!-- Change to lg-12 after 3 items and remove offset -->
-            <div class="col-lg-12">
-                <h2>Portfolio</h2>
-                <hr>
-            </div>
+        <!-- Change to lg-12 after 3 items and remove offset -->
+        <div class="col-lg-12">
+            <h2>Portfolio</h2>
+            <hr>
+        </div>
         <div class="row">
             <div class="col-lg-6 col-lg-offset-4 portfolio-item">
                 <h3 class="project-title">Habitica Class Analysis</h3>
@@ -124,7 +124,7 @@
                     <img src="img/portfolio/habitica_analysis.png" class="img-responsive" alt="A Tableau visualization of Habitica Player Data">
                     <br>
                 </a>
-                <p class="project-desc">A breakdown of class selections made by players after reaching Level 10</p>
+                <p class="project-desc">Interactive visualization of player classes for the online time management RPG - Habitica</p>
             </div>
             <div class="col-lg-6 col-lg-offset-4 portfolio-item">
                 <h3 class="project-title">NOAA Storm Analysis</h3>
@@ -137,7 +137,7 @@
                     <img src="img/portfolio/storm.png" class="img-responsive" alt="A bar graph showing the most destructive natural disasters">
                     <br>
                 </a>
-                <p class="project-desc">A Rmarkdown page showing the results of NOAA storm data analyzed in R</p>
+                <p class="project-desc">A study of the most destructive weather events from data published by the National Oceanic and Atmospheric Administration</p>
             </div>
         </div>
     </section>
@@ -191,36 +191,33 @@
     <!-- Portfolio Modals -->
     <div class="portfolio-modal modal fade" id="habitica" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Habitica Class Analysis</h2>
                             <hr>
-                            <img src="img/portfolio/habitica_analysis.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or
-                                you can purchase the entire set with 146 icons for only $12!</p>
+                            <a href="https://public.tableau.com/profile/flavius.popan#!/vizhome/classAnalysis/MainDashboard" target="_blank">
+                                <img src="img/portfolio/habitica_analysis.png" class="img-responsive img-centered">
+                            <p>Habitica is an open source, online time management application that takes the form of a role-playing game. Once players reach Level 10, they are given the option to select from one of 4 classes: Warrior, Mage, Healer, and Rogue.
+                                I used two datasets made public by administrators to illustrate the class distrubtion across player levels</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>
+                                    <strong>
+                                        <a href="https://public.tableau.com/profile/flavius.popan#!/vizhome/classAnalysis/MainDashboard" target="_blank">Visualization</a>    
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
+                                <li>
+                                    <strong>
+                                    <a href="http://rpubs.com/locrawl/habitica" target="_blank">Preprocessing Script</a>
+                                </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Tools:
+                                    <strong>R, Tableau
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default btn-modal" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
@@ -229,36 +226,28 @@
     </div>
     <div class="portfolio-modal modal fade" id="storm" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>NOAA Storm Analysis</h2>
                             <hr>
-                            <img src="img/portfolio/storm.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or
-                                you can purchase the entire set with 146 icons for only $12!</p>
+                            <a href="http://rpubs.com/locrawl/noaa" target="_blank">
+                                <img src="img/portfolio/storm.png" class="img-responsive img-centered" alt=""></a>
+                            <p>Using public data published by the National Oceanic and Atmospheric Administration (NOAA), I used ggplot2 in RStudio to answer 2 key questions as an assignment for the Reproducible Research course as part of the
+                                <a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank">Data Science Specialization</a> on Coursera.</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
+                                <li>
+                                    <strong>
+                                    <a href="http://rpubs.com/locrawl/noaa" target="_blank">RMarkdown</a>
+                                </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Tools:
+                                    <strong>R, ggplot2
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default btn-mo" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>

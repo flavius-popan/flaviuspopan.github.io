@@ -413,7 +413,6 @@ body {
   box-shadow: none;
   border: none;
   min-height: 100%;
-  padding: 100px 0;
   text-align: center;
   color: black;
 }
@@ -451,17 +450,7 @@ body {
   /* Safari and Chrome */
   z-index: 1051;
 }
-.portfolio-modal .close-modal .lr .rl {
-  height: 75px;
-  width: 1px;
-  background-color: #2C3E50;
-  transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  /* IE 9 */
-  -webkit-transform: rotate(90deg);
-  /* Safari and Chrome */
-  z-index: 1052;
-}
+
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
@@ -470,6 +459,10 @@ body {
 .project-desc {
     color: white;
     font-size: 1.2em;
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .project-title {
@@ -478,4 +471,8 @@ body {
 
 .btn-contact {
     width: 150px !important;
+}
+
+.btn-modal {
+    background-color: white;
 }
