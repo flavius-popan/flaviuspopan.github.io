@@ -33,15 +33,3 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
   }
 });
-
-$(document).ready(function() {
-
-  if(window.location.href.indexOf('#habitica') != -1) {
-    $('#habitica').modal('show');
-  }
-  
-    if(window.location.href.indexOf('#storm') != -1) {
-    $('#storm').modal('show');
-  }
-
-});
