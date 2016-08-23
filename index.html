@@ -19,8 +19,8 @@
 
     <!-- Custom Fonts -->
     <script src="https://use.fontawesome.com/b77baa577a.js"></script>
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
     <!-- Google Analytics ga.js -->
     <script>
@@ -89,14 +89,14 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="row">
-                            <div class="col-md-4" style="padding-top:7%;">
+                            <div class="col-md-4" style="padding-top:6%;">
                                 <img src="../img/profile_square_small.jpg" class="profile">
                             </div>
                             <div class="col-md-8">
                                 <br>
-                                <p>Flavius is an Associate Data Architect living & working in Metro Detroit.
-                                    <br><br> He uses Python, R, & Tableau in his spare time to make visualizations from public datasets as he works towards becoming a Data Scientist.
-                                    <br><br> See some of his work <a href="#portfolio" class="page-scroll">below</a> or <a href="#contact" class="page-scroll">drop him a line.</a></p>
+                                <p>Hi! I'm Flavius and I work for IHS Automotive as an Associate Data Architect. 
+                                    <br><br> In my free time, I enjoy creating visualizations from public datasets, learning new languages, and making neat gizmos. 
+                                    <br><br> See some of my work <a href="#portfolio" class="page-scroll">below</a> or <a href="#contact" class="page-scroll">drop me a line</a>.</p>
                             </div>
                         </div>
                     </div>
@@ -115,29 +115,30 @@
         <div class="row">
             <div class="col-lg-6 col-lg-offset-4 portfolio-item">
                 <h3 class="project-title">Habitica Class Analysis</h3>
-                <a href="#habitica" class="portfolio-link" data-toggle="modal">
+                <a href="https://public.tableau.com/profile/flavius.popan#!/vizhome/classAnalysis/MainDashboard" class="portfolio-link" target="_blank">
                     <div class="caption">
                         <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
+                            <i class="fa fa-external-link fa-3x"></i>
                         </div>
                     </div>
                     <img src="img/portfolio/habitica_analysis.png" class="img-responsive" alt="A Tableau visualization of Habitica Player Data">
                     <br>
                 </a>
-                <p class="project-desc">Interactive visualization of player classes for the online time management RPG - Habitica</p>
+                <p class="project-desc">Interactive visualization of player class selections for the online time management RPG - Habitica</p>
             </div>
             <div class="col-lg-6 col-lg-offset-4 portfolio-item">
                 <h3 class="project-title">NOAA Storm Analysis</h3>
-                <a href="#storm" class="portfolio-link" data-toggle="modal">
+                <a href="http://rpubs.com/locrawl/noaa" class="portfolio-link" target="_blank">
                     <div class="caption">
                         <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
+                            <i class="fa fa-external-link fa-3x"></i>
                         </div>
                     </div>
                     <img src="img/portfolio/storm.png" class="img-responsive" alt="A bar graph showing the most destructive natural disasters">
                     <br>
                 </a>
-                <p class="project-desc">A study of the most destructive weather events from data published by the National Oceanic and Atmospheric Administration</p>
+                <p class="project-desc">I used ggplot2 in RStudio to answer two key questions as an assignment for the Reproducible Research course, which is part of the
+                                <a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank">Data Science Specialization</a> on Coursera.</p>
             </div>
         </div>
     </section>
@@ -187,74 +188,6 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="habitica" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Habitica Class Analysis</h2>
-                            <hr>
-                            <a href="https://public.tableau.com/profile/flavius.popan#!/vizhome/classAnalysis/MainDashboard" target="_blank">
-                                <img src="img/portfolio/habitica_analysis.png" class="img-responsive img-centered"></a>
-                            <p>Habitica is an open source, online time management application that takes the form of a role-playing game. Once players reach Level 10, they are given the option to select from one of 4 classes: Warrior, Mage, Healer, and Rogue.
-                                I used two datasets made public by administrators to illustrate the class distrubtion across player levels</p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong>
-                                        <a href="https://public.tableau.com/profile/flavius.popan#!/vizhome/classAnalysis/MainDashboard" target="_blank">Visualization</a>    
-                                    </strong>
-                                </li>
-                                <li>
-                                    <strong>
-                                    <a href="http://rpubs.com/locrawl/habitica" target="_blank">Preprocessing Script</a>
-                                </strong>
-                                </li>
-                                <li>Tools:
-                                    <strong>R, Tableau
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default btn-modal" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="storm" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>NOAA Storm Analysis</h2>
-                            <hr>
-                            <a href="http://rpubs.com/locrawl/noaa" target="_blank">
-                                <img src="img/portfolio/storm.png" class="img-responsive img-centered" alt=""></a>
-                            <p>Using public data published by the National Oceanic and Atmospheric Administration (NOAA), I used ggplot2 in RStudio to answer 2 key questions as an assignment for the Reproducible Research course as part of the
-                                <a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank">Data Science Specialization</a> on Coursera.</p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong>
-                                    <a href="http://rpubs.com/locrawl/noaa" target="_blank">RMarkdown</a>
-                                </strong>
-                                </li>
-                                <li>Tools:
-                                    <strong>R, ggplot2
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default btn-modal" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 </body>
 
 </html>
